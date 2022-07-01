@@ -1,0 +1,214 @@
+/*html{
+        position: relative;
+        height: 100%;
+      }
+*/
+      
+
+body
+{
+  overflow-x: hidden;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+
+/**, ::after, ::before {
+    box-sizing: border-box;
+}
+*/
+.slideshow-item-text{
+  font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    bottom: auto;
+}
+
+.swiper {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+
+}
+
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        border-style: none;
+        object-fit: cover;
+      }
+
+.slideshow-item-text span {
+     font-size: 65px;
+     font-weight: 500;
+     line-height: 65px;
+     padding-bottom: 10px;
+     display: block;
+}
+
+.slideshow-item-text {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+
+  .slideshow-item-text h1 {
+     color: #fff;
+     font-size: 70px;
+     line-height: 70px;
+     font-weight: bold;
+}
+
+.slideshow-item-text p {
+    font-family: 'Poppins' sans-serif;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 17px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    margin: 0 0 20px;
+}
+
+
+
+a.swiper-button-next {
+     position: absolute;
+     top: 40% !important;
+     left: inherit !important;
+     right: 17px !important;
+     width: 70px;
+     height: 70px;
+     border-radius: 35px;
+}
+
+a.swiper-button-prev {
+     position: absolute;
+     top: 40% !important;
+     left: 17px !important;
+     width: 70px;
+     height: 70px;
+     border-radius: 35px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+     width: 62px;
+     height: 60px;
+     background: #fffdfd;
+     opacity: 1;
+     font-size: 30px;
+     color: #000;
+     transition: background 0.70s;
+    box-shadow: 1px 15px 15px -22px;
+    z-index: 99999;
+    
+}
+
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover,
+.swiper-button-prev:focus,
+.swiper-button-next:focus {
+     background: #ef4416;
+     color: #fff;
+}
+
+a.swiper-button-prev {
+     position: absolute;
+     left: 82px;
+     bottom: 10px;
+     top: inherit;
+}
+
+a.swiper-button-next {
+     position: absolute;
+     left: 10px;
+     top: inherit;
+     bottom: 10px;
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+
+
+ul.social_icon {
+float: left;
+padding-left: 5px;
+     list-style: none;
+     padding-top: 0;
+ }
+
+ul.social_icon li {
+float: left;
+color: #fff;
+align-items: center;
+padding-right: 10px;
+
+}
+ul.social_icon li:last-child {
+     padding-right: 0px;
+}
+ul.social_icon li a {
+color: #fff;
+width: 40px;
+height: 40px;
+border: solid #fff 1px;
+float: left;
+text-align: center;
+line-height: 40px;
+border-radius: 100%;
+font-size: 18px;
+} 
+
+ul.social_icon li a:hover {
+background: #ef4416;
+border: solid #ff0000 1px;        
+color: #fff;
+}
+.fa-angle-left:before, .fa-angle-left-after{
+content: none;
+}

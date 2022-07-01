@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>PhoneCraft</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/b1c0bea694.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/slideshow.css" />
+
+</head>
+
+<body>
+    <!--header--->
+    <header style="padding-top: 15px;">
+        <nav id="top">
+            <div class="container">
+                <div class="row margin-top">
+                    <div class="col-md-3 col-sm-5 col-xs-6 social-icons">
+                        <div>
+                            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                            <a href="https://vt.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="https://maps.google.com"><i class="fa fa-map-marker"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-md-offset-2 col-sm-7 col-xs-6">
+                        <div class="nav pull-right" id="top-links">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-phone i_gray_color"></i> <span
+                                            class="hidden-xs">+977-61-462277</span></a></li>
+                                <li><a href="#"><i class="fa fa-sign-in"></i> <span
+                                            class="hidden-xs">Register</span></a></li>
+                                <li><a href="#"><i class="fa fa-user"></i> <span class="hidden-xs">Login</span></a></li>
+                                <li><a title="Wish List (0)" id="wishlist-total"><i
+                                            class="fa fa-heart i_gray_color"></i> <span class="hidden-xs">WishList
+                                            (0)</span></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="col-xs-12 col-sm-6 col-md-3 remove-padding-left">
+
+                <a class="logo-text" href="home.html">
+                    P h o n e<span style="color:#fff; font-size:35px">C r a f t</span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 bookings">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <p><strong>CUSTOMER SUPPORT</strong><br><a href="#">phoneCraft@suport.com</a></p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <p style="padding-right: 50px;"><strong>REQUEST & ENQUIRIES</strong><br><a
+                            href="#">phoneCraft@request.com</a></p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 shop_cart">
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-0 col-sm-6 col-sm-offset-6 col-xs-12 ">
+                        <div class="btn-group btn-block" id="cart">
+                            <button class="btn btn-default btn-lg dropdown-toggle btn-block" data-toggle="dropdown"
+                                type="button"><span id="cart-total"><i class="fa fa-shopping-cart"></i> 1 Item(s) - Rs.
+                                    47,500</span>
+                            </button>
+                            <ul class="dropdown-menu btn-block cartView">
+                                <li>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-center">
+                                                    <a href="#"><img class="img-responsive" src="images/pocof3.jpg"
+                                                            style="width: 100%"></a>
+                                                </td>
+                                                <td class="text-left"><a class="view_cart cart-product-name"
+                                                        href="#">Poco F3</a>
+                                                </td>
+                                                <td class="product-remove text-center"><a><i
+                                                            class="fa fa-times margin-top"></i></a></td>
+                                            </tr>
+                                            <tr style="border-bottom: 1px solid #D4D4D4" class="clearfix">
+                                                <td class="text-right cart-qty"><span>Qty:</span> 1</td>
+                                                <td class="text-left cart-product-total">Rs. 53,700</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div>
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class=""><strong>Sub-Total</strong></td>
+                                                    <td class="">Rs. 46,750</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class=""><strong>VAT (13%)</strong></td>
+                                                    <td class="">Rs. 6,175</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class=""><strong>Total</strong></td>
+                                                    <td class="">Rs. 53,700</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-shopping-cart"></i>
+                                            View Cart</a>
+                                        <a class="btn btn-primary btn-lg" href="#">
+                                            <i class="fa fa-share"></i>
+
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+            </div>
+        </div>
+        <nav class="container">
+            <div style="padding-bottom: 15px;" class="row">
+                <div class="col-md-11 col-sm-11 col-xs-10 left-side-remove-space">
+                    <div class="navbar-header nav_set_button">
+                        <button data-target="#myNavbar" data-toggle="collapse" class="navbar-toggle btn_set"
+                            type="button">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <div id="myNavbar" class="collapse navbar-collapse left-side-remove-space">
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"><a href="home.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="product.html">Smartphones
+                                    Brand</a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-inner">
+                                        <ul class="list-unstyled">
+                                            <li><a href="product.html">Samsung</a></li>
+                                            <li><a href="product.html">Apple</a></li>
+                                            <li><a href="product.html">OnePlus</a></li>
+                                            <li><a href="product.html">XiaoMi</a></li>
+                                            <li><a href="product.html">Others</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-1 col-xs-2 header-search">
+                    <a data-toggle="modal" data-target="#myModal" class="btn btn-search pull-right">
+                        <i class="fa fa-search"></i></a>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content set_color">
+                <div class="modal-body">
+                    <button aria-label="Close" data-dismiss="modal" class="btn btn-search text-dark" type="button"><i
+                            class="fa fa-remove"></i></button>
+                    <div class="input-group margin-top" id="search">
+                        <input type="text" class="form-control remove-radious" placeholder="Search Any Smartphone"
+                            value="" name="search">
+                        <span class="input-group-btn">
+                            <button class="btn btn-search text-dark" type="button"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content set_color">
+                <div class="modal-body">
+                    <button aria-label="Close" data-dismiss="modal" class="btn btn-search text-dark" type="button"><i
+                            class="fa fa-remove"></i></button>
+                    <div class="input-group margin-top" id="search">
+                        <input type="text" class="form-control remove-radious" placeholder="Search" value=""
+                            name="search">
+                        <span class="input-group-btn">
+                            <button class="btn btn-search text-dark" type="button"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--Modal end--->
+
+    <!--middle content-->
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="home.html"><i class="fa fa-home"></i></a></li>
+            <li><a>Product</a></li>
+        </ul>
+        <div class="row">
+            <aside class="col-sm-3 hidden-xs" id="column-left">
+                <div class="box-heading">
+                    <h3>Featured Brands</h3>
+                </div>
+                <div class="list-group">
+                    <a class="list-group-item">Samsung</a>
+                    <a class="list-group-item">Apple</a>
+                    <a class="list-group-item">OnePlus</a>
+                    <a class="list-group-item">XiaoMi</a>
+                    <a class="list-group-item">Others</a>
+                </div>
+
+
+            </aside>
+            <div class="col-sm-9 product-cat" id="content">
+                <h2>Explore Smartphones</h2>
+                <h3>Refine Search:</h3>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <ul>
+                            <li><a><i aria-hidden="true" class="fa fa-caret-right fa-lg"></i> Samsung(38)</a></li>
+                            <li><a><i aria-hidden="true" class="fa fa-caret-right fa-lg"></i> XiaoMi(26)</a></li>
+                            <li><a><i aria-hidden="true" class="fa fa-caret-right fa-lg"></i> OnePlus(21)</a></li>
+                            <li><a><i aria-hidden="true" class="fa fa-caret-right fa-lg"></i> Others(10)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p><a id="compare-total">Product Compare (0)</a></p>
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="btn-group hidden-xs">
+                            <a class="btn btn-default" id="grid-view" href="product.html"><i class="fa fa-th"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12 text-right text_l mt-20">
+                        <label for="input-sort" class="control-label">Sort By:</label>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12 text-right mt-20">
+                        <select class="form-control" id="input-sort">
+                            <option selected="selected">Default</option>
+                            <option>Name (A - Z)</option>
+                            <option>Name (Z - A)</option>
+                            <option>Price (Low &gt; High)</option>
+                            <option>Price (High &gt; Low)</option>
+                            <option>Rating (Highest)</option>
+                            <option>Rating (Lowest)</option>
+                            <option>Model (A - Z)</option>
+                            <option>Model (Z - A)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1 col-sm-2 col-xs-12 text-right text_l mt-20">
+                        <label for="input-limit" class="control-label">Show:</label>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-12 text-right mt-20">
+                        <select class="form-control">
+                            <option selected="selected">15</option>
+                            <option>25</option>
+                            <option>50</option>
+                            <option>75</option>
+                            <option>100</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row width-50">
+                    <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="product-thumb">
+                            <div class="box-image">
+                                <a href="#"><img class="img-responsive" src="images/s22.jpg"></a>
+                                <div class="caption-block">
+                                    <div class="inner-caption-block">
+                                        <h4><a href="#">Samsung Galaxy S22 Ultra 5G</a></h4>
+                                        <p>
+                                            The most recent galaxy release of samsung, and definitely the best
+                                            smartphone as of now.
+                                        </p>
+                                        <p class="price">
+                                            <span class="price-new">Rs. 175,000</span> <span class="price-old">Rs.
+                                                187,000</span>
+                                            <span class="price-tax">Ex Tax: Rs. 2,799</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="button-group">
+                                    <a class="btn btn-primary" href="#"><i class="fa fa-shopping-cart"></i> <span>Add to
+                                            Cart</span></a>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Add to Wish List"><i
+                                            class="fa fa-heart"></i><span>&nbsp;</span></button>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Compare this Product"><i
+                                            class="fa fa-exchange"></i><span>&nbsp;</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="product-thumb">
+                            <div class="box-image">
+                                <a href="#"><img class="img-responsive" src="images/pocof4.jpg"></a>
+                                <div class="caption-block">
+                                    <div class="inner-caption-block">
+                                        <h4><a href="#">Poco F4</a></h4>
+                                        <p>
+                                            Get this latest poco device with 20 percent of huge discount.
+                                        </p>
+                                        <p class="price">
+                                            <span class="price-new">Rs. 61,350</span> <span
+                                                class="price-old">Rs.68,599</span>
+                                            <span class="price-tax">Ex Tax: Rs. 2,799</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="button-group">
+                                    <a class="btn btn-primary" href="#"><i class="fa fa-shopping-cart"></i> <span>Add to
+                                            Cart</span></a>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Add to Wish List"><i
+                                            class="fa fa-heart"></i><span>&nbsp;</span></button>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Compare this Product"><i
+                                            class="fa fa-exchange"></i><span>&nbsp;</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="product-thumb">
+                            <div class="box-image">
+                                <a href="#"><img class="img-responsive" src="images/mi11.jpg"></a>
+                                <div class="caption-block">
+                                    <div class="inner-caption-block">
+                                        <h4><a href="#">XiaoMi Mi 11</a></h4>
+                                        <p>
+                                            XiaoMi's Mi 11 features snapfragon processor which is so powerful with its
+                                            MiUi 13.
+                                        </p>
+                                        <p class="price">
+                                            <span class="price-new">Rs. 87,200</span> <span class="price-old">Rs.
+                                                94,500</span>
+                                            <span class="price-tax">Ex Tax: Rs. 2,799</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="button-group">
+                                    <a class="btn btn-primary" href="#"><i class="fa fa-shopping-cart"></i> <span>Add to
+                                            Cart</span></a>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Add to Wish List"><i
+                                            class="fa fa-heart"></i><span>&nbsp;</span></button>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Compare this Product"><i
+                                            class="fa fa-exchange"></i><span>&nbsp;</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="product-thumb">
+                            <div class="box-image">
+                                <a href="#"><img class="img-responsive" src="images/rog5s.jpg"></a>
+                                <div class="caption-block">
+                                    <div class="inner-caption-block">
+                                        <h4><a href="#">Asus ROG Phone 5S Pro</a></h4>
+                                        <p>
+                                            Asus ROG phone with snapdragon is arguably the best gaming out out there.
+                                        </p>
+                                        <p class="price">
+                                            <span class="price-new">Rs. 82.500</span> <span class="price-old">Rs.
+                                                85,990</span>
+                                            <span class="price-tax">Ex Tax: Rs. 3,199</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="button-group">
+                                    <a class="btn btn-primary" href="#"><i class="fa fa-shopping-cart"></i> <span>Add to
+                                            Cart</span></a>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Add to Wish List"><i
+                                            class="fa fa-heart"></i><span>&nbsp;</span></button>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Compare this Product"><i
+                                            class="fa fa-exchange"></i><span>&nbsp;</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="product-thumb">
+                            <div class="box-image">
+                                <a href="#"><img class="img-responsive" src="images/op9t.jpg"></a>
+                                <div class="caption-block">
+                                    <div class="inner-caption-block">
+                                        <h4><a href="#">OnePlus 9T</a></h4>
+                                        <p>
+                                            OnePlus 9T is best option which offers Max Snapdragon 888 along with
+                                            stability.
+                                        </p>
+                                        <p class="price">
+                                            <span class="price-new">Rs. 102,999</span> <span class="price-old">Rs.
+                                                110,999</span>
+                                            <span class="price-tax">Ex Tax: Rs.2,999</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="button-group">
+                                    <a class="btn btn-primary" href="#"><i class="fa fa-shopping-cart"></i> <span>Add to
+                                            Cart</span></a>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Add to Wish List"><i
+                                            class="fa fa-heart"></i><span>&nbsp;</span></button>
+                                    <button class="btn btn-default" type="button"
+                                        data-original-title="Compare this Product"><i
+                                            class="fa fa-exchange"></i><span>&nbsp;</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-left"></div>
+                    <div class="col-sm-6 text-right">Showing 1 to 2 of 20 (20 Pages)</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--end-->
+
+
+    <div class="container">
+        <div class="row shop-gallery">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2><span>LATEST </span> RELEASES</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-5">
+                <p><a>Click On the Products to buy.</a></p>
+            </div>
+        </div>
+        <hr />
+        <div class="mmp">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 product-shop">
+                    <div class="image">
+                        <a href="#"><img class="img-responsive" title="OnePlus" alt="OnePlus"
+                                src="images/op10r.jpg"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a class="latest-product-name" href="#">OnePlus 10R 5G</a></h4>
+
+                        <ul>
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!--<p class="price">!-->
+                    <p class="product-price">OnePlus 10R 5G</p>
+                    <span class="price-tax">Rs. 77,920 Including Tax</span>
+                    <!--</p>!-->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 product-shop">
+                    <div class="image">
+                        <a href="#"><img class="img-responsive" title="iPhone" alt="iPhone 13"
+                                src="images/promax13.jpg"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a class="latest-product-name" href="#">iPhone 13 Pro Max</a></h4>
+
+                        <ul>
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!--<p class="price">!-->
+                    <p class="product-price">iPhone 13 Pro Max</p>
+                    <span class="price-tax">Rs. 191,990 Including Tax</span>
+                    <!--</p>!-->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 product-shop">
+                    <div class="image">
+                        <a href="#"><img class="img-responsive" title="ZFlip" alt="Galaxy ZFlip"
+                                src="images/zflip.jpg"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a class="latest-product-name" href="#">Samsung Galaxy Z Flip 3 5G</a></h4>
+
+                        <ul>
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!--<p class="price">!-->
+                    <p class="product-price">Samsung Galaxy Z Flip 3 5G</p>
+                    <span class="price-tax">Rs. 124,999 Including Tax</span>
+                    <!--</p>!-->
+                </div>
+            </div>
+        </div>
+
+        <!--offer-->
+        <div class="row shop-gallery">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <h2><span>SPECIAL</span> OFFERS</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="mmp">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature-product-shop">
+                    <div class="image">
+                        <a href="#"> <img class="img-responsive" src="images/12x.png"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a href="#">XiaoMi 12X</a></h4>
+                        <p class="price">
+                            Rs. 67,999
+                        </p>
+                        <ul class="margin-top">
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product-price">XiaoMi 12X</p>
+                    <span class="price-tax">Rs. 67,999 <p class="highlight">20% OFF</p></span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature-product-shop">
+                    <div class="image">
+                        <a href="#"> <img class="img-responsive" src="images/a53.jpg"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a href="#">Samsung A53 5G</a></h4>
+                        <p class="price">
+                            Rs. 55,999
+                        </p>
+                        <ul class="margin-top">
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product-price">Samsung A53 5G</p>
+                    <span class="price-tax">Rs. 55,999 <p class="highlight">15% OFF</p></span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature-product-shop">
+                    <div class="image">
+                        <a href="#"> <img class="img-responsive" src="images/mialpha.jpeg"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a href="#">Mi Mix Alpha</a></h4>
+                        <p class="price">
+                            Rs. 276,500
+                        </p>
+                        <ul class="margin-top">
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product-price">Mi Mix Alpha</p>
+                    <span class="price-tax">Rs. 276500 <p class="highlight">18% OFF</p></span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature-product-shop">
+                    <div class="image">
+                        <a href="#"> <img class="img-responsive" src="images/pixel6.jpg"></a>
+                    </div>
+                    <div class="media-image-hover">
+                        <h4><a href="#">Google Pixel 6 Pro</a></h4>
+                        <p class="price">
+                            Rs. 102,500
+                        </p>
+                        <ul class="margin-top">
+                            <li><a><i class="fa fa-exchange"></i></a></li>
+                            <li><a><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product-price">Google Pixel 6 Pro</p>
+                    <span class="price-tax">Rs. 102,500 <p class="highlight">25% OFF</p></span>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="divider"></div>
+
+        <!--footer-->
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row m_t20">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p><strong>Navigate</strong>
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><a>About Us</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a>Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p><strong>EXPLORE SMARTPHONES</strong><br><a href="product.html">View Our Products.</a></p>
+                    <div class="bookings">
+                        <p><strong>FOR ENQUIRIES</strong><br><a href="contact.html"> Contact Us.</a></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 newsletter-form">
+                    <p><strong>Subscribe to Us.</strong></p>
+                    <div class="bookings">
+                        <p><small>Receive Updates on Latest Smartphones</small></p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your email address">
+                        </div>
+                        <button type="button" class="btn btn-default">Subscribe</button>
+                    </form>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+
+    </section>
+    <!--end-->
+    <a style="display: none" href="javascript:void(0);" class="scrollTop back-to-top" id="back-to-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</body>
+
+</html>
